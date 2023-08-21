@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100hv;
+    width: 100vh;
+    overflow-x: none;
+    
+}
+
+.navContainer{
+    width: 100vw;
+    color: white;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 100%;
+}
+
+#navList {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navLogo{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#listIteams{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

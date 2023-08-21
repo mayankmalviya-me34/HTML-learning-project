@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2px;
+            padding: 3rem;
+            flex-wrap: wrap;
+        }
+        #boxleft{
+            
+            width: 45%;
+            margin: 3px;
+            padding: 2px;
+            flex-direction: column ;
+            background-color: rgb(227, 243, 237);
+            border: 1px solid lawngreen;
+            box-shadow: 5px 5px 20px 5px lawngreen ;
+        }
+        .box{
+            flex-wrap: wrap;
+        }
+        #boxright{
+            
+            width: 45%;
+            margin: 3px;
+            padding: 2px;
+        }
+        p{
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+            padding: 2px;
+            margin: 3px;
+            
+        }
+        img{
+         height: 90%;  
+         width: 90%;
+         float: right;
+        }
+
+        @media (max-width: 640px) {
+            .container
+            {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">       
+        <div class="box" id="boxleft">
+                <p>Music is generally defined as the art of arranging sound to create some combination of form, harmony, melody, rhythm, or otherwise expressive content.[1][2][3] Definitions of music vary depending on culture,[4] though it is an aspect of all human societies and a cultural universal.[5] While scholars agree that music is defined by a few specific elements, there is no consensus on their precise definitions.[6] The creation of music is commonly divided into musical composition, musical improvisation, and musical performance,[7] though the topic itself extends into academic disciplines, criticism, philosophy, and psychology. Music may be performed or improvised using a vast range of instruments, including the human voice.</p>
+                <p>Get back to the music faster with Musicnotes! Just choose your sheet music from our catalog of over 500,000 high-quality arrangements for every instrument, skill level, and scoring. Then, checkout and print instantly in any available key. Plus, access your sheet music library anywhere with our free iOS, Mac, Android, and PC apps!</p>  
+        </div>
+        <div class="box" id="boxright">
+            <img id="img" src="./images.jpeg" alt="">
+        </div>
+    </div>
+</body>
+</html>
